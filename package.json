@@ -1,0 +1,21 @@
+{
+  "name": "semilayer-example-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Node script showing how to query a SemiLayer lens from a backend service.",
+  "license": "MIT",
+  "scripts": {
+    "query": "tsx --env-file=.env query.ts",
+    "search": "tsx --env-file=.env query.ts search",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@semilayer/client": "1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
